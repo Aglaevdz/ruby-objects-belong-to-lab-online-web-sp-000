@@ -1,8 +1,5 @@
 class Author
-  attr_accessor :name, :song
-
-  def initialize
+  def initialize(name)
     @name = name
   end
-
 end
